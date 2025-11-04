@@ -1,0 +1,31 @@
+name: qurann
+description: Premium Quran Kareem Application
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  google_fonts: ^6.1.0
+  just_audio: ^0.9.34
+  audio_service: ^0.18.10
+  url_launcher: ^6.1.14
+  share_plus: ^7.2.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
